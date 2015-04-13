@@ -1,0 +1,17 @@
+Install GCC in OS X
+
+1. Install xcode command line tools
+   $ xcode-select --install
+2. Install Homebrew
+   $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+3. Add repository for gcc48
+   $ brew tap homebrew/versions
+   $ brew update
+4. Install gcc48
+   $ brew install gcc48
+5. Check if gcc-4.8 is installed successfully
+   $ gcc-4.8 --version
+6. Reference links
+   http://kuoe0.logdown.com/posts/2014/01/31/install-gnu-gcc-on-os-x-and-use-the-header-bits-stdcplusplus-h-and-policy-based-data-structure
+   http://www-scf.usc.edu/~csci104/installation/gccmac.html
+   https://github.com/Homebrew/homebrew-versions
